@@ -4,9 +4,7 @@
 
 body {
   margin: 0;
-}
-
-#root {
+  font-family: 'Inter', serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +12,7 @@ body {
   background-color: white;
 }
 
-main {
+#root {
   background-color: #282d35;
   color: white;
 }
@@ -23,20 +21,48 @@ header {
   background-color: #21222a;
   color: #61dafb;
   width: 550px;
-  height: 91px;
+  height: 90px;
   font-weight: 700;
-  font-size: 22.25px;
-  font-family: 'Inter', serif;
+  font-size: 1.4rem;
   align-items: center;
   display: flex;
   padding: 0 26px;
 }
 
 header img {
-  width: 28px;
+  width: 40px;
+  margin-right: 7px;
 }
 
 nav {
   display: flex;
   align-items: center;
+}
+
+main {
+  background-image: url(./assets/react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+h1 {
+  margin-left: 30px;
+  margin-top: 60px;
+  font-size: 2.4rem;
+}
+
+ul {
+  margin-left: 30px;
+  margin-bottom: 125px;
+  font-weight: 400;
+  max-width: 400px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
 }
